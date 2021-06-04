@@ -1,8 +1,8 @@
-# Geocoding-Web-Mapping-with-Python
+# Lab 4
 
-This workshop is an introduction to geocoding and web mapping with python.
+This lab is an introduction to geocoding and web mapping with python.
 
-Click here for the workshop webpage: https://ubc-library-rc.github.io/Geocoding-Web-Mapping-with-Python/
+Click here for the workshop webpage: https://june-skeeter.github.io/GEOB270_Lab4_2021S1/
 
 Created by June Skeeter
 

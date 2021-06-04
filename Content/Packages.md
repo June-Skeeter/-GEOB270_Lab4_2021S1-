@@ -3,10 +3,11 @@ layout: default
 title: Basics of Python
 nav_order: 2
 ---
-# Python is:
+
+# Basics of Python
 * A powerful programming language that is free to download and use.
 * Well suited for data analysis and visualization.
-* A great choice for working with geospatial data!
+* A great choice for working with geospatial data.
 
 # Accessing Python
 * Today We'll be using a UBC server with python already installed on it.
