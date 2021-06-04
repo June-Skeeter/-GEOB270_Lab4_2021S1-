@@ -6,7 +6,10 @@ nav_order: 3
 
 # Getting Set Up
 
-This page will walk you through how to access Python, download the lab data, and install/setup a geocoding package,
+This page will walk you through how to access Python, download the lab data, and install/setup a geocoding package.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jJ8rFfFLLXk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Step 1) 
 
