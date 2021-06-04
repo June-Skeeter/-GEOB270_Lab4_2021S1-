@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Updates
-nav_order: 4
+title: Vector Overlay
+nav_order: 5
 ---
 
 # Updating the Database

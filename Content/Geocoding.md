@@ -1,32 +1,36 @@
 ---
 layout: default
-title: Updates
+title: Geocoding
 nav_order: 4
 ---
 
-# Updating the Database
+# Geocoding
 
-[This is a work in progress](https://june-skeeter.github.io/Police_Involved_Deaths_Canada/)
+Open the notebook titled "Geocoding with Python" and run through the steps.
 
-We'll use a subset of the updated database too make a webmap of incidents in BC.
+## Step1)
 
-Opne the Final Map notebook.
+Import the necessary packages and read the data file. 
 
+## Step2)
 
-<!-- 
-<div style="overflow: hidden;
-  padding-top: 56.25%;
-  position: relative">
-  <iframe src="PoliceViolenceIncidents_BC.html" title="Processes" scrolling="no" frameborder="0"
-    style="border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;">
-   <p>Your browser does not support iframes.</p>
- </iframe>
-</div>
-<a href="PoliceViolenceIncidents_BC.html" target="_blank">View Map in New Tab</a>
+Inspect the data.  1) Get the count of the total number of records. 2) Agrregate the data by department and sort it.
 
- -->
+### Question 1)
+How many incidents are there in the dataset?
+<!-- 147 -->
+
+### Question 2)
+What do the total incidents by department tell us about the nature of police violence in British Columbia?
+<!-- RCMP are far and away responsible for the most, followed by BC and Victoria.  A nuber of incidetns occured at prisons acrross the province as well. -->
+
+## Step3)
+
+Agrregate the data by cause of death and plot it.
+
+### Question 3)
+What is the most common cause of death during an interaction with police?  What information can you draw from this chart?
+<!-- Shootings are most common -->
+
+Reference this video for help.
+

@@ -23,16 +23,18 @@ nav_order: 3
 
 ## C) Clone the repository
 * In the new terminal window that opens, paste the command:
-
+'''
   git clone https://github.com/ubc-library-rc/Geocoding-Web-Mapping-with-Python/
-  
+'''
   * This tells Git (a file tracking software) to to download a repository for this workshop with all the files and code.
   * Hit enter and the flies will download after a few seconds.
 
 
 # Setp 3) Installing geopy
 ## A) In the terminal window type:
+'''
     pip install geopy
+'''
 * Hit enter to install the geopy package. 
 
 # Step 4) Navigating Jupyter Notebooks
