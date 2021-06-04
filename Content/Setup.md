@@ -1,21 +1,20 @@
 ---
 layout: default
-title: Getting Started
+title: Getting Set Up
 nav_order: 3
 ---
 
-# Step 1) 
-## Create a [Mapbox](https://mapbox.com) accont
-  * We need this to access our API key later
+# Getting Set Up
 
-# Step 2) Download the data & code
-## A) Start Python
-* UBC provides server space where you can run Python using a [Jupyter Notebook](https://ubc.syzygy.ca/jupyter)
-  * Login with your CWL.  You'll then be taken to a blank jupyter window.
+This page will walk you through how to access Python, download the lab data, and install/setup a geocoding package,
+
+## Step 1) 
+
+Start Python - UBC provides server space where you can run Python using a [Jupyter Notebook](https://ubc.syzygy.ca/jupyter)
+* Login with your CWL.  You'll then be taken to a blank jupyter window.
 * This is good option for getting your bearings because nearly everything is already set up.
-  * You don't have to worry about installing anything on your own system.
+  * You don't have to worry about installing anything on your own computer.
 * This may sound intimidating/confusing.  But don't worry, its easy.  You don't need to know command line to do this.  I'll walk you through step by step!!
-  * You can refer to the video below for helps with steps 2 - 5. 
 
 ## B) Open a terminal
 * We're going to open a command terminal and use command line clone the Github workshop's repository.
@@ -23,19 +22,23 @@ nav_order: 3
 
 ## C) Clone the repository
 * In the new terminal window that opens, paste the command:
-'''
+```
   git clone https://github.com/ubc-library-rc/Geocoding-Web-Mapping-with-Python/
-'''
+```
   * This tells Git (a file tracking software) to to download a repository for this workshop with all the files and code.
   * Hit enter and the flies will download after a few seconds.
 
 
 # Setp 3) Installing geopy
 ## A) In the terminal window type:
-'''
+```
     pip install geopy
-'''
+```
 * Hit enter to install the geopy package. 
+
+
+## Step 1) 
+Create a [Mapbox](https://mapbox.com) accont.  We need this to access our API key later
 
 # Step 4) Navigating Jupyter Notebooks
 ## Opening a notebook
