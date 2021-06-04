@@ -16,47 +16,42 @@ Start Python - UBC provides server space where you can run Python using a [Jupyt
   * You don't have to worry about installing anything on your own computer.
 * This may sound intimidating/confusing.  But don't worry, its easy.  You don't need to know command line to do this.  I'll walk you through step by step!!
 
-## B) Open a terminal
+## Step 2)
+
+ Open a terminal
 * We're going to open a command terminal and use command line clone the Github workshop's repository.
 * In they Jupyter window, click "New" in the top right and select "Terminal" from the dropdown menu.
 
-## C) Clone the repository
-* In the new terminal window that opens, paste the command:
+## Step 3) 
+
+Clone the repository.  In the new terminal window that opens, paste the command:
 ```
   git clone https://github.com/ubc-library-rc/Geocoding-Web-Mapping-with-Python/
 ```
-  * This tells Git (a file tracking software) to to download a repository for this workshop with all the files and code.
-  * Hit enter and the flies will download after a few seconds.
+This tells Git (a file tracking software) to to download a repository for this workshop with all the files and code.
+* Hit enter and the flies will download after a few seconds.
 
+## Setp 4) Installing geopy
 
-# Setp 3) Installing geopy
-## A) In the terminal window type:
+In the terminal window type:
 ```
     pip install geopy
 ```
 * Hit enter to install the geopy package. 
 
-
-## Step 1) 
-Create a [Mapbox](https://mapbox.com) accont.  We need this to access our API key later
-
-# Step 4) Navigating Jupyter Notebooks
-## Opening a notebook
-* Close the terminal window. Go back to your Jupyter Notebook window
-* You will notice a folder titled "Geocoding and Webmapping with Python", double clicking the folder will open it.
+## Step 5)
+Go back to your Jupyter Notebook window.  Double click to open the GEOB270_Lab4_2021S1 folder that wasa just download.
 * You'll see a two more folders and a collection of files.  The .ipynb tag on the end denotes a Jupyter "Notebook"
-  * A Notebook is a collection of Python code and Annotations that can be run interactively.
-* Double click on "Geocoding & Webmapping with Python.ipynb" to open it.
+  * A Notebook is a collection of Python code and annotations that can be run interactively.
+  * Double click on "Geocoding with Python.ipynb" to open it.
 
-# Step 5) Adding your API key
-
-* You can get your [access token here](https://account.mapbox.com/access-tokens/)
-* On this page, you should see a "Default Public Token".  This will be the key we use to access Mapbox's geocoding service
-  * If not click the "Create Token Button"
-    * Give it a name, leave all other default options checked, and click "Create Token".
-
-* Copy the key and paste it in the first code block where you see
-  * api_key = ""
+## Step 6) 
+Create a [Mapbox](https://mapbox.com) accont.  We need this to access our API key later.  Then you can [access token here](https://account.mapbox.com/access-tokens/)
+* On this page, you should see a "Default Public Token".  This will be the key we use to access Mapbox's geocoding service.
+* Copy the key and paste it in the first code block of the Geocoding with Python.ipynb where you see:
+```python 3
+api_key = ""
+```
 
 ### You're ready to run the code!
 

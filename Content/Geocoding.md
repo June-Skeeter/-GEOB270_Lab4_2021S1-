@@ -10,7 +10,10 @@ Open the notebook titled "Geocoding with Python" and run through the steps below
 
 ## Step 1)
 
-Import the necessary packages and read the data file. 
+Import the necessary packages and read the data file.  Copy the apikey you accessed on the last page and paste it in the first code block of the Geocoding with Python.ipynb where you see:
+```python 3
+api_key = ""
+```
 
 ## Step 2)
 
