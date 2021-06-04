@@ -26,8 +26,8 @@ Clone the repository.  In the new terminal window that opens, paste the command:
 ```
   git clone https://github.com/ubc-library-rc/Geocoding-Web-Mapping-with-Python/
 ```
-This tells Git (a file tracking software) to to download a repository for this workshop with all the files and code.
-* Hit enter and the flies will download after a few seconds.
+* Hit enter and the flies will download after a few seconds.  This tells Git (a file tracking software) to to download a repository for this workshop with all the files and code.
+
 
 ## Setp 4) Installing geopy
 
@@ -46,25 +46,5 @@ Go back to your Jupyter Notebook window.  Double click to open the GEOB270_Lab4_
 ## Step 6) 
 Create a [Mapbox](https://mapbox.com) accont.  We need this to access our API key later.  Then you can [access token here](https://account.mapbox.com/access-tokens/)
 * On this page, you should see a "Default Public Token".  This will be the key we use to access Mapbox's geocoding service.  Leave this tab open for now and go on to the next page.
-
-### You're ready to run the code!
-
-
-<a href="SetUp.mp4" target="_blank">Open Video in new tab</a>
-
-<div style="overflow: hidden;
-  padding-top: 56.25%;
-  position: relative">
-  <iframe src="SetUp.mp4" title="Processes" scrolling="no" frameborder="0"
-    style="border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;">
-   <p>Your browser does not support iframes.</p>
- </iframe>
-</div>
-
 
 <img src="APIKey.png" alt="hi" class="inline"/>
