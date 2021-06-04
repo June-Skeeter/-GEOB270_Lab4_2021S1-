@@ -24,7 +24,7 @@ Start Python - UBC provides server space where you can run Python using a [Jupyt
 
 Clone the repository.  In the new terminal window that opens, paste the command:
 ```
-  git clone https://github.com/ubc-library-rc/Geocoding-Web-Mapping-with-Python/
+  https://github.com/June-Skeeter/GEOB270_Lab4_2021S1
 ```
 * Hit enter and the flies will download after a few seconds.  This tells Git (a file tracking software) to to download a repository for this workshop with all the files and code.
 
