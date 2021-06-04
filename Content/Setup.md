@@ -18,9 +18,7 @@ Start Python - UBC provides server space where you can run Python using a [Jupyt
 
 ## Step 2)
 
- Open a terminal
-* We're going to open a command terminal and use command line clone the Github workshop's repository.
-* In they Jupyter window, click "New" in the top right and select "Terminal" from the dropdown menu.
+ Open a command terminal.  In the Jupyter window, click "New" in the top right and select "Terminal" from the dropdown menu.
 
 ## Step 3) 
 
@@ -47,11 +45,7 @@ Go back to your Jupyter Notebook window.  Double click to open the GEOB270_Lab4_
 
 ## Step 6) 
 Create a [Mapbox](https://mapbox.com) accont.  We need this to access our API key later.  Then you can [access token here](https://account.mapbox.com/access-tokens/)
-* On this page, you should see a "Default Public Token".  This will be the key we use to access Mapbox's geocoding service.
-* Copy the key and paste it in the first code block of the Geocoding with Python.ipynb where you see:
-```python 3
-api_key = ""
-```
+* On this page, you should see a "Default Public Token".  This will be the key we use to access Mapbox's geocoding service.  Leave this tab open for now and go on to the next page.
 
 ### You're ready to run the code!
 
@@ -73,3 +67,4 @@ api_key = ""
 </div>
 
 
+<img src="APIKey.png" alt="hi" class="inline"/>

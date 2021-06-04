@@ -36,17 +36,4 @@ Packages (aka libraries) are collections of code that are designed specifically 
 * [Folium](https://python-visualization.github.io/folium/quickstart.html#Getting-Started) is a library that "translates" Python commands to JavaScript and creates interactive webmaps
 	* We'll use Folium to display the data on maps that we can interact with (click, pan, zoom).  See the example below.
 
-<div style="overflow: hidden;
-  padding-top: 56.25%;
-  position: relative">
-  <iframe src="PoliceViolenceIncidents_BC.html" title="Processes" scrolling="no" frameborder="0"
-    style="border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;">
-   <p>Your browser does not support iframes.</p>
- </iframe>
-</div>
-<a href="PoliceViolenceIncidents_BC.html" target="_blank">View Map in New Tab</a>
+
