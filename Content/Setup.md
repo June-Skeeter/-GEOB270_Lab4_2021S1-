@@ -17,14 +17,15 @@ nav_order: 3
 * This may sound intimidating/confusing.  But don't worry, its easy.  You don't need to know command line to do this.  I'll walk you through step by step!!
   * You can refer to the video below for helps with steps 2 - 5. 
 
-
 ## B) Open a terminal
 * We're going to open a command terminal and use command line clone the Github workshop's repository.
 * In they Jupyter window, click "New" in the top right and select "Terminal" from the dropdown menu.
 
 ## C) Clone the repository
 * In the new terminal window that opens, paste the command:
+
   git clone https://github.com/ubc-library-rc/Geocoding-Web-Mapping-with-Python/
+  
   * This tells Git (a file tracking software) to to download a repository for this workshop with all the files and code.
   * Hit enter and the flies will download after a few seconds.
 

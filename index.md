@@ -10,9 +10,7 @@ nav_order: 1
 This lab will be dealing with a difficutl subject that may be triggering for some, especially BIPOC individuals.  If you find yourself unable to engae with this dataset please contact me and we can find an alternative way for you to get credit for lab 4.
 
 
-## Why Police-Involved Deaths in Canada?
 
-Candian instututions rely on the lack of race based statistics to perpetuate a narrative that systemic racism is "just an American issue" and that Canada is "better".  We need to have discussions about systemic racism in Canada and make it part of the public discourse in order to hold Canadian institutions accountable.
 
 
 <div style="overflow: hidden;
@@ -31,7 +29,7 @@ Candian instututions rely on the lack of race based statistics to perpetuate a n
 <a href="slides.html" target="_blank">View slides in new tab</a>
 
 
-
+<!-- 
 ## One goal of the lab is to geocode the locations of incidents to find out where they are occuring.
 
 <div style="overflow: hidden;
@@ -47,4 +45,4 @@ Candian instututions rely on the lack of race based statistics to perpetuate a n
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-<a href="PoliceViolenceIncidents_BC.html" target="_blank">View Map in New Tab</a>
+<a href="PoliceViolenceIncidents_BC.html" target="_blank">View Map in New Tab</a> -->
