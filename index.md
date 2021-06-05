@@ -5,6 +5,7 @@ nav_order: 1
 ---
 # Using Python to Promote Social Justice
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-WDlaVvAPKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Content Warning
 This lab will be dealing with a difficutl subject that may be triggering for some.  If you find yourself unable to engae with this dataset please contact me and we can find an alternative way for you to get credit for lab 4.
