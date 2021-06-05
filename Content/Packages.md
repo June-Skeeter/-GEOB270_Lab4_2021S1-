@@ -12,7 +12,7 @@ nav_order: 2
 
 ## Accessing Python
 
-* Today We'll be using a UBC server with python already installed on it.
+* Today We'll be using a UBC server with Python already installed on it.
 * If you want to install Python on your own computer, check out [Anaconda](https://www.anaconda.com/products/individual)
  	* Anaconda will install most commonly used python packages and set everything up for you.
  	* Anaconda won't install *every* package we're using today, but installing new packages is fairly straightforward.
