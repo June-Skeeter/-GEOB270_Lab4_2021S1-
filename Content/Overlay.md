@@ -6,7 +6,9 @@ nav_order: 5
 
 # Vector Overlay
 
-Open the notebook titled "Vector Overlay with Python" and run through the steps below.  Refer to the video at the bottom of the page for help.
+Open the notebook titled "Vector Overlay with Python" and run through the steps below.  Refer to the video for guidance.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zHVT3Z_WZbs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Step 1)
 
@@ -18,10 +20,12 @@ Read the data geocoded text file and covert it to a spatial data format.  This s
 
 ### Question 7)
 What does looking at the demographics in this data tell you about police involved deaths in Canada?
+<!-- Disproportionately male and indigenous but many missing records are a limiting factor.  -->
+
 
 ## Step 3)
 
-Read the Census Subdivision shapefile.  Plot the BC population data to make sure it imported properly.  Zoom and pan to see what regions have the highest populations. "Uncomment" the last two lines in this block and re-run to make sure the point layer lines up with the polygon layer.
+Read the Census Subdivision shapefile.  Plot the BC population data to make sure it imported properly.  Plot the point data over polygon layer.
 
 ### Question 8)
 Zoom to a region of interest and take a screenshot, showing both the points and polygon layer and submit it to canvas.
@@ -43,11 +47,11 @@ Normalize the data to calculate the police involved death rate.  Divide the numb
 
 ### Question 10)
 What is the provincial police involved death rate?
-<!-- 2.88 -->
+<!-- 3.16 -->
 
 ### Question 11)
 What does this number mean?
-<!-- For every million residents in BC, 2.88 people die from a police interaction per year -->
+<!-- For every million residents in BC, 3.16 people die from a police interaction per year -->
 
 ## Step 6)
 
@@ -64,20 +68,27 @@ Repeat the normalization process for the all census subdivisions.  Then select s
 
 ### Question 12)
 What is the general pattern you notice in regards to the relationship between the rate, number of incidents, and total population?  What explains this pattern?
-
+<!-- Higher rates are in areas with smaller populations.  This is partly an artifact of small samples sizes and partly highlights the hidden nature of police violence in BC -->
 
 ## Step 7)
 
-Repeat the normalization process for the all census subdivisions.  Then select subdivisions with at least one incident and print the results.
+Select just the subdivisions with at least 5,000 residents and plot the relationship between % Indigenous Identity and the Police-Involved Death Rate.  Fix the title so it says the correct years (2011-2021).Then download the plot and submit it to canvas.  
+<a href="Download.mp4" target="_blank">See this video instructions for help downloading the plot</a>
 
-### Question 12)
-What is the general pattern you notice in regards to the relationship between the rate, number of incidents, and total population?  What explains this pattern?
-<!-- Higher rates are in areas with smaller populations.  This is partly an artifact of small samples sizes and partly highlights the hidden nature of police violence in BC -->
+
+Notice the outlier on the plot.  The value in Kent, BC (CSD) is more than double the next highest value. That is because the data from the Georgia Straight includes dearths in prison, and there is a prison in Agassiz, which is in this CSC.
+
+### Question 13)
+
+Submit the plot to canvas.
+
+
+
 
 ## Step 8)
 
-Select all census subdivisions with populations greater than 1000 and at rates >0.  Plot them as a choropleth map.  
+Plot the selection as a choropleth map.  
 
-### Question 13)
+### Question 14)
 
 Change the middle gin value from 10 to 20, then re-run the code block.  Take a screenshot of the map (full scale or zoomed to a specific region) and submit it to canvas.
