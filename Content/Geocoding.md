@@ -6,7 +6,9 @@ nav_order: 4
 
 # Geocoding
 
-Open the notebook titled "Geocoding with Python" and run through the steps below.  Refer to the video at the bottom of the page for help.
+Open the notebook titled "Geocoding with Python" and run through the steps below.  Refer to the video for help.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-sbnoZeV-ws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Step 1)
 
