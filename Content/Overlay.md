@@ -35,6 +35,8 @@ Zoom to a region of interest and take a screenshot, showing both the points and 
 
 Loop through each row in the census subdivision layer.  Do a point in polygon vector overlay using the .within() function to find which incidents are in each polygon.  Add the total number of incidents for each subdivision as an attribute.
 
+Because the demographic information in the police-involved death dataset is missing a number of key descriptors, it will be more effective to overlay the point data with census data and infer relationships based on the demographics of the census subdivisions.
+
 ### Question 9)
 What is the highest number of incidents in a single census subdivision?
 <!-- 18 -->
@@ -57,18 +59,10 @@ What does this number mean?
 
 Repeat the normalization process for the all census subdivisions.  Then select subdivisions with at least one incident and print the results.
 
-### Question 12)
-What is the general pattern you notice in regards to the relationship between the rate, number of incidents, and total population?  What explains this pattern?
-<!-- Lower population areas tend to have higher rates.  Partly the small population, causing higher rates.  Partly, the "hidden" nature of police violence in BC.  If Vancouver had a rate as high as these small communities, the issue would get more attention -->
-
-
-## Step 6)
-
-Repeat the normalization process for the all census subdivisions.  Then select subdivisions with at least one incident and print the results.
 
 ### Question 12)
 What is the general pattern you notice in regards to the relationship between the rate, number of incidents, and total population?  What explains this pattern?
-<!-- Higher rates are in areas with smaller populations.  This is partly an artifact of small samples sizes and partly highlights the hidden nature of police violence in BC -->
+<!-- Higher rates are in areas with smaller populations.  This is partly an artifact of small samples sizes and partly highlights the hidden nature of police violence in BC. If Vancouver had a rate as high as these small communities, the issue would get more attention. -->
 
 ## Step 7)
 
@@ -83,12 +77,15 @@ Notice the outlier on the plot.  The value in Kent, BC (CSD) is more than double
 Submit the plot to canvas.
 
 
-
-
 ## Step 8)
 
 Plot the selection as a choropleth map.  
 
 ### Question 14)
 
-Change the middle gin value from 10 to 20, then re-run the code block.  Take a screenshot of the map (full scale or zoomed to a specific region) and submit it to canvas.
+Change the middle bin value from 10 to 20, then re-run the code block.  Take a screenshot of the map (full scale or zoomed to a specific region) and submit it to canvas.
+
+
+### Question 15)
+
+After going through this lab, what is your impression about how working with Python to do GIS compares too ArcGIS Pro?  Why might an open source GIS option (like Python) be a good choice for an organization/individual with limited resources?

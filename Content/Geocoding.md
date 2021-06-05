@@ -23,7 +23,7 @@ api_key = ""
 Inspect the data.  1) Get the count of the total number of records. 2) Aggregate the data by department and sort it.
 
 ### Question 1)
-How many incidents are there in the datasets?
+How many incidents are there in the data set?
 <!-- 147 -->
 
 ### Question 2)
@@ -35,7 +35,7 @@ What do the total incidents by department tell us about the nature of police vio
 Aggregate the data by cause of death and plot it.
 
 ### Question 3)
-What is the most common cause of death during an interaction with police?  What information can you draw from this chart?
+What is the most common cause of death during an interaction with police?
 <!-- Shootings are most common -->
 
 
@@ -54,7 +54,7 @@ Inspect the results.  Create a web map to display the points.
 
 ### Question 5)
 What spatial patterns stand out in the data set to you?
-<!-- Densest concentration in metro Vancouver -->
+<!-- Densest concentration in metro Vancouver, but there are many incidents in rural areas across the province -->
 
 ### Question 6)
 Change the 'fill_color' parameter to 'red'.  Zoom to any specific area/region of interest (eg. Metro Vancouver, Northern BC, etc.).  Take a screenshot and submit it on canvas. 
