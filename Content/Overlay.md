@@ -17,7 +17,7 @@ Import the necessary packages and read the data file.
 Read the data geocoded text file and covert it to a spatial data format.  This step is equivalent to "display xy data" in ArcGIS Pro.  Then we can quickly plot the data to make sure it imported properly.
 
 ### Question 7)
-What do the X & Y axes on the plot represent?
+What does looking at the demographics in this data tell you about police involved deaths in Canada?
 
 ## Step 3)
 
